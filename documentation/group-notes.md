@@ -1,6 +1,6 @@
 # Group Notes
 
-Use this shared notebook to capture meeting highlights, decisions, and follow-up tasks.
+Use this shared notebook to capture meeting highlights, decisions, and follow-up tasks for Innovation Summit 2025 Group 9.
 
 - Summarize key takeaways after each working session.
 - Note data sources, analysis ideas, and open questions.

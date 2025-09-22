@@ -1,18 +1,23 @@
-site_name: "Project Title"
-site_description: 'Central resource for ESIIL project groups'
-site_author: Ty Tuff
-site_url: "https://OWNER.github.io/REPO/"
+site_name: "Coral Reef Remote Sensing Anomaly Detection"
+site_description: "Innovation Summit 2025 Group 9 rapid anomaly detection project"
+site_author: "Innovation Summit 2025 Group 9"
+site_url: "https://cu-esiil.github.io/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/"
 
 # Repository
-repo_name: Project-group-home
-repo_url: https://github.com/CU-ESIIL/Project_group_oasis
+repo_name: "CU-ESIIL/Coral Reef Anomaly Detection Group 9"
+repo_url: https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9
 edit_uri: edit/main/docs/
 # Copyright
-copyright: 'Copyright &copy; 2024 University of Colorado Boulder'
+copyright: 'Copyright &copy; 2025 Innovation Summit 2025 Group 9'
 
 # Page tree
 nav:
   - Home: index.md
+  - Project:
+      - Team: team.md
+      - Code catalog: code.md
+      - Data & access: data.md
+      - Updates: updates.md
   - Instructions:
       - Day 1 — Define & Explore: instructions/day1.md
       - Day 2 — Data & Methods: instructions/day2.md
@@ -23,9 +28,9 @@ nav:
       - Save to persistent storage: instructions/save-to-persistent-storage.md
       - RStudio Proxy Workaround: instructions/open-rstudio.md
   - Storage:
-      - Your code: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code
-      - Your documentation: https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation
-      - Your persistent storage: "https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_1?type=folder&resourceId=1993057e-8e90-11f0-b0fa-90e2ba675364"
+      - Your code: https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code
+      - Your documentation: https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/documentation
+      - Your persistent storage: https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9/
   - Orientation:
       - Summit slides: orientation/slides.md
       - ESIIL training: orientation/esiil_training.md
@@ -33,7 +38,6 @@ nav:
       - Participant agreement: orientation/participant_agreement.md
 
 not_in_nav: |
-  data.md
   instructions.md
   project_template.md
   assets/cyverse_basics/README.md
@@ -85,7 +89,8 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-    # link: https://github.com/cu-esiil/
+      link: https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9
+      name: GitHub repository
 
 extra_css:
   - stylesheets/extra.css
