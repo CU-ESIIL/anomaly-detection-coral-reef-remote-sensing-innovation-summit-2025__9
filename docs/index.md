@@ -12,7 +12,7 @@ HERO (Swap hero.jpg, title, strapline, and the three links)
 
 **One sentence on impact:** In 3 days, we are prototyping a remote sensing anomaly detection workflow to flag coral reef stress hotspots that require rapid management attention.
 
-**[Daily notes & brief](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/documentation/group-notes.md) · [View shared code](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code) · [Data & access](data.md)**
+**[Daily notes & brief](assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf) · [View shared code](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/code/single_hull_demo.py) · [Explore data](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/code/prism_quicklook.py)**
 
 > **About this site:** Innovation Summit 2025 Group 9 uses this space to share daily progress on building an anomaly detection pipeline for coral reef remote sensing. Edit everything here in your browser: open a file → pencil icon → Commit changes.
 
@@ -144,13 +144,13 @@ Early, transparent detection of coral reef anomalies enables managers to deploy 
 <table>
 <tr>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/documentation/group-notes.md"><img src="assets/button_brief.gif" alt="Project notes and brief" width="240"><br><strong>Review notes</strong></a>
+  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project notes and brief" width="240"><br><strong>Review notes</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/code/single_hull_demo.py"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="data.md"><img src="assets/button_data.gif" alt="Explore data resources" width="240"><br><strong>Explore data</strong></a>
+  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/code/prism_quicklook.py"><img src="assets/button_data.gif" alt="Explore data resources" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
@@ -178,7 +178,7 @@ Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.co
 Use the [`docs/`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/documentation); summarize key takeaways here so the public story stays current.
 
 **Persistent storage**  
-Archive large datasets, deliverables, and shared assets in the [CyVerse community folder for Group 9](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9/). Reference that folder from the **Data** page when pointing collaborators to downloads.
+Archive large datasets, deliverables, and shared assets in the [CyVerse community folder for Group 9](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9?type=folder&resourceId=96910606-959e-11f0-b0fb-90e2ba675364). Reference that folder from the **Data** page when pointing collaborators to downloads.
 
 ---
 
