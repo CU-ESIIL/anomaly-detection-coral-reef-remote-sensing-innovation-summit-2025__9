@@ -13,7 +13,7 @@ This page tracks the datasets feeding the anomaly detection workflow and how to 
 - **Marine protected area boundaries** from [UNEP-WCMC](https://www.protectedplanet.net/en/thematic-areas/marine-protected-areas).
 
 ## Processed assets & storage
-- Stage intermediate rasters, parquet tables, and exports in the [Group 9 CyVerse folder](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9/).
+- Stage intermediate rasters, parquet tables, and exports in the [Group 9 CyVerse folder](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9?type=folder&resourceId=96910606-959e-11f0-b0fb-90e2ba675364).
 - Mirror lightweight extracts needed for the website inside `docs/assets/data_snippets/` so figures and tables stay reproducible.
 - Record provenance (data source, processing notebook, commit hash) in [`documentation/group-notes.md`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/documentation/group-notes.md).
 

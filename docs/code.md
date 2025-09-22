@@ -21,7 +21,7 @@ Update the table as you add new analyses. Link to GitHub permalinks if files mov
 ## Testing & reproducibility
 - Keep environment requirements in `requirements.txt` or separate `environment.yml` if needed.
 - Include short docstrings or README snippets inside code folders describing parameters, dependencies, and runtime expectations.
-- When possible, cache intermediate outputs in the [Group 9 CyVerse folder](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9/) with a matching subdirectory structure.
+- When possible, cache intermediate outputs in the [Group 9 CyVerse folder](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9?type=folder&resourceId=96910606-959e-11f0-b0fb-90e2ba675364) with a matching subdirectory structure.
 
 ## Open tasks
 - [ ] Add automated data download script for nightly CRW ingest.
