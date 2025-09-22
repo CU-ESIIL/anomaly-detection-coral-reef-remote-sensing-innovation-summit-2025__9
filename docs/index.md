@@ -1,139 +1,130 @@
-# Project Title 
+# Coral Reef Remote Sensing Anomaly Detection
 
-
-<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/Project_group_OASIS/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
+<p style="text-align: right;"><a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/edit/main/docs/index.md" title="Edit this page">✏️</a></p>
 
 <!-- =========================================================
 HERO (Swap hero.jpg, title, strapline, and the three links)
 ========================================================= -->
 
-![Wide banner of the study system](assets/hero.jpg)
-[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hero.jpg)
+![Aerial view of a coral reef system from above](assets/hero.jpg)
+[Raw photo location: hero.jpg](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/hero.jpg)
+*Add a summit-specific hero image that reflects your reef of interest.*
 
-**One sentence on impact:** In 3 days, we explore *X* to inform *Y*, producing actionable visuals, a concise brief, and shareable code.
+**One sentence on impact:** In 3 days, we are prototyping a remote sensing anomaly detection workflow to flag coral reef stress hotspots that require rapid management attention.
 
-**[Project brief (PDF)](#) · [View shared code](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) · [Data & access](data.md)**
+**[Daily notes & brief](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/documentation/group-notes.md) · [View shared code](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code) · [Data & access](data.md)**
 
-> **About this site:** This is a public, in-progress record of a 3-day project at the Innovation Summit. Edit everything here in your browser: open a file → pencil icon → Commit changes.
+> **About this site:** Innovation Summit 2025 Group 9 uses this space to share daily progress on building an anomaly detection pipeline for coral reef remote sensing. Edit everything here in your browser: open a file → pencil icon → Commit changes.
 
 ---
 
 ## How to use this page (for the team)
 - **Edit this file:** `docs/index.md` → ✎ → change text → **Commit changes**.
 - **Add images:** upload to `docs/assets/` and reference like `assets/your_file.png`.
-- Keep **text short** and **visuals first**. Think “slide captions,” not essays.
+- Treat this page like a scrolling, visual slide deck; update it at least once per day.
 
 ---
 
 ## Day 1 — Define & Explore
-*Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).*
+*Focus: questions, hypotheses, context; add at least one visual (photo of whiteboard/notes).* 
 
 ### Our product 📣
-- What product do you want to create as a team?
+- Interactive map that highlights anomalous coral reef pixels based on thermal stress and spectral change.
+- Short briefing that explains how to interpret anomaly scores and recommended response actions.
 
 ### Our question(s) 📣
-<!-- EDIT: Replace bullets with your own. Encourage divergent takes. -->
-- What are we trying to understand or change?
-- Why now? Why here?
-- Who benefits if we succeed?
+- Where are current satellite observations indicating unusual stress relative to a reef’s historical baseline?
+- How quickly can we surface these anomalies after new imagery is available?
+- What combination of spectral and thermal indicators best captures emerging bleaching events?
 
-### Hypotheses / intentions [Optional: probably not relevant if you are creating an educational tool]
-<!-- EDIT: Plain language, short and honest. -->
-- We think that …
-- We intend to test whether …
-- We will know we’re onto something if …
+### Hypotheses / intentions
+- Multi-temporal z-scores on Sentinel-2 reflectance will reveal anomalous decreases in reef brightness tied to bleaching.
+- NOAA Coral Reef Watch thermal alerts can seed hotspots that we refine with higher-resolution optical data.
+- An explainable anomaly index will help reef managers prioritize validation dives within hours rather than weeks.
 
 ### Why this matters (the “upshot”) 📣
-<!-- EDIT: 2–3 sentences max, decision-oriented. -->
-Explain who is impacted and how this could change decisions or understanding.
+Early, transparent detection of coral reef anomalies enables managers to deploy rapid response teams, communicate risks to local communities, and monitor whether interventions are working. Turning satellite feeds into actionable alerts expands coverage beyond the limited sites that can be visited in person.
 
 ### Inspirations (papers, datasets, tools)
-<!-- EDIT: Swap in your own links. -->
-- Publication: [Influential paper title](https://doi.org/xxxx)
-- Dataset portal: [Example data hub](https://example.org)
-- Tool/tech: [Method or library](https://example.org)
+- Dataset: [NOAA Coral Reef Watch 5km products](https://coralreefwatch.noaa.gov/product/5km/index.php)
+- Portal: [Allen Coral Atlas bleaching monitoring](https://allencoralatlas.org/)
+- Method: [Unsupervised anomaly detection for marine heatwaves](https://doi.org/10.1038/s41597-023-02239-4)
 
 ### Field notes / visuals
-<!-- EDIT: Replace with a real smartphone photo or sketch; keep filename simple. -->
-![Whiteboard brainstorm (replace this)](assets/day1_whiteboard.jpg)
-[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/day1_whiteboard.jpg)
-*Caption: What this shows and why it’s useful today.*
+![Storyboard of our reef anomaly workflow (replace with a whiteboard photo)](assets/day1_whiteboard.jpg)
+[Raw photo location: day1_whiteboard.jpg](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/day1_whiteboard.jpg)
+*Swap in a real whiteboard sketch or planning photo to show the initial concept.*
 
-> **Different perspectives:** Briefly capture disagreements or alternate framings. These can unlock innovation.
+> Capture differing viewpoints here—disagreements about data sources or thresholds often uncover new ideas.
 
 ---
 
 ## Day 2 — Data & Methods
-*Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).*
+*Focus: what we’re testing and building; show a first visual (plot/map/screenshot/GIF).* 
 
 ### Data sources we’re exploring 📣
-<!-- EDIT: Link each source; add size/notes if relevant. -->
-- **Source A**
-
-  ![Pattern revealed during exploration](assets/explore_data_plot.png)
-[Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/explore_data_plot.png)
-  *Snapshot showing initial data patterns.*
-
-- Source B — link and 1-line description
+- **NOAA Coral Reef Watch (5 km)** – thermal stress alerts and HotSpot anomalies to seed priority regions.
+  ![Example anomaly signal over a reef tract (replace with your plot)](assets/explore_data_plot.png)
+  [Raw photo location: explore_data_plot.png](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/explore_data_plot.png)
+  *Placeholder: add a quicklook figure that shows anomaly behaviour for your reef of focus.*
+- **Sentinel-2 surface reflectance (10 m)** – multispectral signatures for shallow reefs after cloud masking.
+- **Planet NICFI or commercial mosaics** – optional high-resolution context if licensing allows.
 
 ### Methods / technologies we’re testing 📣
-- Approach 1 (e.g., time-series break detection)
-- Approach 2 (e.g., random forest on features)
-- Visualization (e.g., map tiles, small multiples)
+- Generate rolling baselines and z-score anomalies for key spectral bands (blue, green, red-edge).
+- Fuse thermal alerts with optical change detection via unsupervised clustering.
+- Publish anomaly tiles to an interactive web map for rapid review.
 
 ### Challenges identified
-- Data gaps / quality issues
-- Method limitations / compute constraints
-- Open questions we need to decide on
+- Cloud and sunglint contamination reducing valid observations.
+- Aligning thermal alert polygons with higher-resolution imagery footprints.
+- Limited labelled bleaching events for validation.
 
 ### Visuals
-<!-- EDIT: Swap examples; keep file sizes modest. -->
 #### Static figure
-![Early pattern we’re seeing](assets/figure1.png)
-[Raw photo location: figure1.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/figure1.png)
-*Figure 1.* One line on what this suggests.
+![Prototype anomaly timeline for Lizard Island reef](assets/figure1.png)
+[Raw photo location: figure1.png](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/figure1.png)
+*Figure 1.* Replace with your first anomaly plot or classification result.
 
 #### Animated change (GIF)
-![Seasonal/temporal change animation](assets/change.gif)
-[Raw photo location: change.gif](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/change.gif)
-*Figure 2.* One line on what changes across time.
+![Placeholder GIF showing anomaly evolution—swap with reef results](assets/change.gif)
+[Raw photo location: change.gif](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/change.gif)
+*Figure 2.* Upload an animated GIF that illustrates change through time (e.g., heat stress accumulation).
 
 #### Interactive map (iframe)
 <iframe
-  title="Study area (OpenStreetMap)"
-  src="https://www.openstreetmap.org/export/embed.html?bbox=-105.35%2C39.90%2C-105.10%2C40.10&layer=mapnik&marker=40.000%2C-105.225"
+  title="Great Barrier Reef anomaly focus (OpenStreetMap)"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=146.60%2C-18.50%2C147.10%2C-18.05&layer=mapnik&marker=-18.275%2C146.85"
   width="100%" height="360" frameborder="0"></iframe>
-<p><a href="https://www.openstreetmap.org/?mlat=40.000&mlon=-105.225#map=12/40.0000/-105.2250">Open full map</a></p>
+<p><a href="https://www.openstreetmap.org/?mlat=-18.275&mlon=146.85#map=11/-18.2750/146.8500">Open full map</a></p>
 
-> If an embed doesn’t load, put the normal link directly under it.
+> If an embed doesn’t load, link directly to the map, dashboard, or notebook output.
 
 ---
 
-## Final Share Out — Insights & Sharing 
-*Focus: synthesis; highlight 2–3 visuals that tell the story; keep text crisp. Practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
+## Final Share Out — Insights & Sharing
+*Focus: synthesis; highlight 2–3 visuals that tell the story; practice a 2-minute walkthrough of the homepage 📣: Why → Questions → Data/Methods → Findings → Next.*
 
-![Team photo at start of Day 3](assets/team_photo.jpg)
-[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/team_photo.jpg)
+![Team photo placeholder—swap with your crew on Day 3](assets/team_photo.jpg)
+[Raw photo location: team_photo.jpg](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/team_photo.jpg)
 
 ### Findings at a glance 📣
-<!-- EDIT: 2–4 bullets, each a headline in plain language with a number if possible. -->
-- Headline 1 — what, where, how much
-- Headline 2 — change/trend/contrast
-- Headline 3 — implication for practice or policy
+- Highlight 1 — Describe where anomalies appeared and the magnitude of the signal.
+- Highlight 2 — Note how anomaly detection compared to baseline expectations or manager intuition.
+- Highlight 3 — Summarize an actionable recommendation (e.g., which reef cells to investigate first).
 
 ### Visuals that tell the story 📣
-<!-- EDIT: Swap visuals; prioritize clarity. -->
-![Lead conclusion visual placeholder](assets/fire_hull.png)
-[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/fire_hull.png)
-*Visual 1.* Swap in the primary graphic that clearly communicates your core takeaway.
+![Heat stress anomaly composite (replace with your key figure)](assets/fire_hull.png)
+[Raw photo location: fire_hull.png](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/fire_hull.png)
+*Visual 1.* Swap in the primary map or chart that best communicates your anomaly findings.
 
-![Supporting panels for key insights](assets/hull_panels.png)
-[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/hull_panels.png)
-*Visual 2.* Use a complementary panel, collage, or set of snapshots that reinforces supporting evidence.
+![Supporting panels comparing anomaly thresholds (replace)](assets/hull_panels.png)
+[Raw photo location: hull_panels.png](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/hull_panels.png)
+*Visual 2.* Use supporting panels to explain methodology choices or sensitivity analysis.
 
-![Complementary result figure placeholder](assets/main_result.png)
-[Raw photo location: main_result.png](https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/docs/assets/main_result.png)
-*Visual 3.* Highlight an additional visual that captures a secondary insight or next step.
+![Secondary insight figure placeholder](assets/main_result.png)
+[Raw photo location: main_result.png](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/docs/assets/main_result.png)
+*Visual 3.* Share an additional perspective, such as comparison across reef sectors or timelines.
 
 <iframe
   title="Short explainer video (optional)"
@@ -143,24 +134,23 @@ Explain who is impacted and how this could change decisions or understanding.
   allowfullscreen></iframe>
 
 ### What’s next? 📣
-- Immediate follow-ups
-- What we would do with one more week/month
-- Who should see this next
+- Immediate follow-ups for partners (e.g., validation dives, sensor deployments).
+- Enhancements possible with one more week/month of effort.
+- Stakeholders who should receive the anomaly briefing.
 
 ---
 
 ## Featured links (image buttons)
-<!-- EDIT: Replace images/links; keep alt text meaningful and motion subtle. -->
 <table>
 <tr>
 <td align="center" width="33%">
-  <a href="assets/Seven%20ways%20to%20measure%20fire%20polygon%20velocity-4.pdf"><img src="assets/button_brief.gif" alt="Project brief PDF" width="240"><br><strong>Read the brief</strong></a>
+  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/blob/main/documentation/group-notes.md"><img src="assets/button_brief.gif" alt="Project notes and brief" width="240"><br><strong>Review notes</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/fired_time_hull_panel.ipynb"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
+  <a href="https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code"><img src="assets/button_code.gif" alt="View shared code" width="240"><br><strong>View code</strong></a>
 </td>
 <td align="center" width="33%">
-  <a href="https://github.com/CU-ESIIL/Project_group_OASIS/blob/main/code/single_hull_demo.py"><img src="assets/button_data.gif" alt="Explore data" width="240"><br><strong>Explore data</strong></a>
+  <a href="data.md"><img src="assets/button_data.gif" alt="Explore data resources" width="240"><br><strong>Explore data</strong></a>
 </td>
 </tr>
 </table>
@@ -170,27 +160,32 @@ Explain who is impacted and how this could change decisions or understanding.
 ## Team
 | Name | Role | Contact | GitHub |
 |------|------|---------|--------|
-| Jane Doe | Lead | jane.doe@example.org | @janedoe |
-| John Smith | Analyst | john.smith@example.org | @jsmith |
+| _(Add team lead)_ | Coordinates daily goals & partners | your.email@example.org | @_handle |
+| _(Add data lead)_ | Curates imagery & preprocessing | your.email@example.org | @_handle |
+| _(Add methods lead)_ | Builds anomaly models | your.email@example.org | @_handle |
+| _(Add communications lead)_ | Crafts story & visuals | your.email@example.org | @_handle |
+
+> Keep the roster in sync with the dedicated [team page](team.md) so contact details stay current across the site.
 
 ---
 
-
-
 ## Storage
 
-Code
-Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
+**Code**  
+Keep shared scripts, notebooks, and utilities in the [`code/`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/code) directory. Document how to run them in a README or within the files so teammates and visitors can reproduce your workflow.
 
-Documentation
-Use the [`docs/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/Project_group_OASIS/tree/main/documentation); summarize key takeaways here so the public story stays current.
+**Documentation**  
+Use the [`docs/`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/docs) folder to publish project updates on this site. Longer internal notes can live in [`documentation/`](https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9/tree/main/documentation); summarize key takeaways here so the public story stays current.
+
+**Persistent storage**  
+Archive large datasets, deliverables, and shared assets in the [CyVerse community folder for Group 9](https://de.cyverse.org/data/ds/iplant/home/shared/esiil/Innovation_summit/Group_9/). Reference that folder from the **Data** page when pointing collaborators to downloads.
 
 ---
 
 ## Cite & reuse
 If you use these materials, please cite:
 
-> Lastname, A., Lastname, B. (2025). *Project title*. DOI or URL.
+> Innovation Summit 2025 Group 9. (2025). *Coral Reef Remote Sensing Anomaly Detection*. https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9
 
 License: CC-BY-4.0 unless noted. See dataset licenses on the **[Data](data.md)** page.
 

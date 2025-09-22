@@ -1,12 +1,14 @@
-# Project Group OASIS — Starter Website & README Kit
+# Coral Reef Remote Sensing Anomaly Detection — Innovation Summit 2025 Group 9
 
-This guide is written for people who may be brand new to GitHub. It will show you, step by step, how to use this repository as both:
+This guide is written for Innovation Summit participants who may be brand new to GitHub. It explains how we use this repository to track our coral reef anomaly detection sprint as both:
 
 1. A **website** to communicate your science to others.
 2. A **hub for sharing code** within your group.
 
+During the Innovation Summit we are prototyping a workflow that blends NOAA Coral Reef Watch alerts with multispectral satellite imagery to highlight reefs experiencing unusual stress. The materials here evolve quickly—update them as soon as you have new insights, figures, or code so partners can follow along.
 
-**Template users:** If you are using this repository as a template, start with [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for the required name and link updates.
+
+**Reusing this template?** Start with [TEMPLATE_GUIDE.md](TEMPLATE_GUIDE.md) for the required name and link updates before adopting it for another project.
 
 ---
 
@@ -113,7 +115,7 @@ Congratulations — you’re now using GitHub to communicate your science and sh
 
 ### Step 2 — Open the project home
 
-1. Visit your repository link (it looks like `https://github.com/ORG/Project_group_OASIS`).
+1. Visit your repository link (ours is `https://github.com/CU-ESIIL/anomaly-detection-coral-reef-remote-sensing-innovation-summit-2025__9`).
 2. You’ll see folders like `docs/`, `src/`, and files like `README.md`.
 
 **Why this matters:** This is the “front door” to your project’s files.

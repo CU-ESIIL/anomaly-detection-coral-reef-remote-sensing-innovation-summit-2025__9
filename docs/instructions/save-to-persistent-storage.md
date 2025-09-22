@@ -27,7 +27,7 @@ i:/iplant/home/shared/esiil/Innovation_summit/<GROUP_NAME>
 Set environment variables:
 ```bash
 # —— Edit these two lines ——
-GROUP_NAME="Group_1"                  # <-- change to your group
+GROUP_NAME="Group_9"                  # <-- change to your group
 USERNAME="<your_cyverse_username>"    # <-- no angle brackets
 
 COMMUNITY="i:/iplant/home/shared/esiil/Innovation_summit/${GROUP_NAME}"
